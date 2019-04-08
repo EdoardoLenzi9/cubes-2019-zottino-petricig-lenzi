@@ -1,0 +1,43 @@
+html, body, canvas,
+#sceneFreezer, #instructionsMenu {
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    font-family: Monospace, serif;
+}
+#sceneFreezer {
+    position: absolute;
+    background-color: rgba(2,2,2,0.6);
+}
+#instructionsMenu {
+    display: -moz-box;    /* Mozilla 3.0 */
+    display: -webkit-box; /* Chrome 3.0, Safari 3.1 */
+
+    /* box orientation */
+    box-orient: horizontal;
+    -mox-box-orient: horizontal;    /* Mozilla */
+    -webkit-box-orient: horizontal; /* Chrome, Safari */
+
+    /* box pack */
+    box-pack: center;
+    -mox-box-pack: center;    /* Mozilla */
+    -webkit-box-pack: center; /* Chrome, Safari */
+
+    /* box align */
+    box-align: center;
+    -mox-box-align: center;    /* Mozilla */
+    -webkit-box-align: center; /* Chrome, Safari */
+
+    /* Other properties */
+    color: #ffffff;
+    cursor: pointer;
+    text-align: left;
+}
+#title {
+    font-size: 50px;
+    font-family: "Segoe UI", sans-serif;
+}
